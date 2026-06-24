@@ -1,0 +1,19 @@
+pkgbase = r-ark
+	pkgdesc = An R kernel
+	pkgver = 0.1.252
+	pkgrel = 1
+	url = https://github.com/r-lib/rig
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = rust
+	depends = gcc-libs
+	depends = libgcc
+	depends = glibc
+	conflicts = r-ark-bin
+	options = !lto
+	options = !debug
+	source = ark-0.1.252.tar.gz::https://github.com/posit-dev/ark/archive/0.1.252.tar.gz
+	sha512sums = caf1c07c371f36a6e2b479d5263642bee2bd50c5b22d7facb0588bc31ac3616b98ac64a1919d82f0dda3dca35d3b03bdde667558e39585283d9e4b0ff4e9dbb4
+
+pkgname = r-ark

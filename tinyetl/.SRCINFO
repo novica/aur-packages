@@ -1,0 +1,20 @@
+pkgbase = tinyetl
+	pkgdesc = Fast, zero-config ETL in a single binary
+	pkgver = 0.10.0
+	pkgrel = 1
+	url = https://github.com/alrpal/TinyETL
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = rust
+	depends = gcc-libs
+	depends = glibc
+	depends = openssl
+	depends = unixodbc
+	conflicts = tinyetl-bin
+	options = !lto
+	options = !debug
+	source = tinyetl-0.10.0.tar.gz::https://github.com/alrpal/TinyETL/archive/v0.10.0.tar.gz
+	sha512sums = d566a6e7714db4a0f0c3170140f8eb5adb7d1cbf330efb8225e359f6c1899fc745ac0398b6c884d1ab56c6605b517ba6e9c22d1496d6585cc664c92e94cd9faf
+
+pkgname = tinyetl
