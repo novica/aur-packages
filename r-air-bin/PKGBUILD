@@ -12,14 +12,14 @@ conflicts=('r-air')
 options=('!debug')
 provides_x86_64=("r-air=${pkgver}")
 
-source_x86_64=("${pkgname}-${pkgver}.tar.gz::https://github.com/posit-dev/air/releases/download/${pkgver}/air-$CARCH-unknown-linux-gnu.tar.gz"
+source_x86_64=("${pkgname}-${pkgver}.tar.gz::https://github.com/posit-dev/air/releases/download/${pkgver}/air-x86_64-unknown-linux-gnu.tar.gz"
                 "https://raw.githubusercontent.com/posit-dev/air/refs/tags/${pkgver}/LICENSE")
 
 package() {
     cd "$srcdir"
 
     # Move the binary from the temporary install directory to the final location
-    install -Dm755 "$srcdir/air-$CARCH-unknown-linux-gnu/air" "$pkgdir/usr/bin/r-air"
+    install -Dm755 "$srcdir/air-x86_64-unknown-linux-gnu/air" "$pkgdir/usr/bin/r-air"
     install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
 
