@@ -5,6 +5,10 @@ echo "::group::Updating"
 sudo pacman -Syu --noconfirm
 echo "::endgroup::"
 
+echo "::group::Rebuilding paru against updated packages"
+cd /home/builder/paru-bin && git pull && makepkg -si --noconfirm
+echo "::endgroup::"
+
 # Set path
 WORKPATH=$GITHUB_WORKSPACE/$INPUT_PKGNAME
 HOME=/home/builder
