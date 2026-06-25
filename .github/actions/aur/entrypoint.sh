@@ -5,10 +5,6 @@ echo "::group::Updating"
 sudo pacman -Syu --noconfirm
 echo "::endgroup::"
 
-echo "::group::Rebuilding paru against updated packages"
-cd /home/builder/paru-bin && git pull && makepkg -si --noconfirm
-echo "::endgroup::"
-
 # Set path
 WORKPATH=$GITHUB_WORKSPACE/$INPUT_PKGNAME
 HOME=/home/builder
@@ -30,9 +26,9 @@ updpkgsums
 git diff PKGBUILD
 echo "::endgroup::"
 
-echo "::group::Installing depends using paru"
+echo "::group::Installing depends"
 source PKGBUILD
-paru -Syu --removemake --needed --noconfirm "${depends[@]}" "${makedepends[@]}"
+sudo pacman -S --needed --noconfirm "${depends[@]}" "${makedepends[@]}"
 echo "::endgroup::"
 
 echo "::group::Running makepkg"
