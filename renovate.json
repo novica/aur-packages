@@ -18,5 +18,11 @@
       ],
       "extractVersionTemplate": "^v?(?<version>.*)$"
     }
+  ],
+    "packageRules": [
+    {
+      "matchFileNames": ["**/PKGBUILD"],
+      "groupName": "{{packageFileDir}}"
+    }
   ]
 }
