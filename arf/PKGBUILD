@@ -2,7 +2,7 @@
 
 pkgname=arf
 pkgver=0.4.2 # renovate: datasource=github-tags depName=eitsupi/arf
-pkgrel=2
+pkgrel=1
 pkgdesc="A modern R console"
 url="https://github.com/eitsupi/arf"
 arch=('x86_64' 'aarch64')
