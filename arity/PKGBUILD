@@ -1,7 +1,7 @@
 # Maintainer: novica <nnovica@gmail.com>
 
 pkgname=arity
-pkgver=0.10.0 # renovate: datasource=github-tags depName=jolars/arity
+pkgver=0.11.0 # renovate: datasource=github-tags depName=jolars/arity
 pkgrel=1
 pkgdesc="Language server, formatter, and linter for R"
 url="https://github.com/jolars/arity"
