@@ -2,7 +2,7 @@
 
 pkgname=r-air-bin
 pkgver=0.11.0 # renovate: datasource=github-tags depName=posit-dev/air
-pkgrel=2
+pkgrel=1
 pkgdesc="An R language server and formatter"
 arch=('x86_64')
 url="https://github.com/posit-dev/air"
