@@ -1,7 +1,7 @@
 pkgbase = r-air-bin
 	pkgdesc = An R language server and formatter
 	pkgver = 0.11.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/posit-dev/air
 	arch = x86_64
 	license = MIT
