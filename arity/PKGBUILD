@@ -33,4 +33,4 @@ package() {
   install -Dm644 "${srcdir}/arity-${pkgver}/LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
 
-sha512sums=('801ce9d66eee63c1f148efec330f245a87fb78df94ae867fa8867264ade878d320d978613a0e830e46a685bd0e27ed426c7980cc505d392d09c50ad23e6cc44b')
+sha512sums=('046ef2d387ffa94ac75110d23d916672f2fe46f41a5e26b4fef4cabcc50facffeae76a5d4f32aa4500055b3361ae58eeecc9c120cf68bd9587b6361fb51457e9')
