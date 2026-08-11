@@ -35,4 +35,4 @@ package() {
   install -Dm644 "${srcdir}/${pkgname}-${pkgver}/LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
 
-sha512sums=('8d6d6afbe62bf0eddf498912c3fb109a63ac36410683634b92a70741c9336a49352ae8c7016b7d785bcaf0d701afe96e734af2e0eedd8edc1f089cfd3ab08971')
+sha512sums=('29c1aec48f8c240fcf99a88e87d95956c695380d096d94f2cbc45ff6869cc80bb9cc847df4ddebe76337ee64788816ae68839c7a822aee50a5d5639f588a047b')
