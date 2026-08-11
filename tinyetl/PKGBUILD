@@ -6,7 +6,7 @@ pkgrel=1
 pkgdesc="Fast, zero-config ETL in a single binary"
 url="https://github.com/alrpal/TinyETL"
 arch=('x86_64' 'aarch64')
-license=('MIT')
+license=('Apache-2.0')
 depends=(
     gcc-libs
     glibc
