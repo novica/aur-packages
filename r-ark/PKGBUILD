@@ -4,7 +4,7 @@ pkgname=r-ark
 pkgver=0.1.252 # renovate: datasource=github-tags depName=posit-dev/ark
 pkgrel=1
 pkgdesc="An R kernel"
-url="https://github.com/r-lib/rig"
+url="https://github.com/posit-dev/ark"
 arch=('x86_64' 'aarch64')
 license=('MIT')
 depends=(
