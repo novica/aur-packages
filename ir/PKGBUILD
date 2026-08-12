@@ -1,7 +1,7 @@
 # Maintainer: novica <nnovica@gmail.com>
 
 pkgname=ir
-pkgver=0.3.0 # renovate: datasource=github-tags depName=r-lib/ir
+pkgver=0.4.0 # renovate: datasource=github-tags depName=r-lib/ir
 pkgrel=1
 pkgdesc="Run standalone R scripts from embedded dependency metadata"
 url="https://github.com/r-lib/ir"
