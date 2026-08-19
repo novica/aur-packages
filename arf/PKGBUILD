@@ -33,4 +33,4 @@ package() {
   install -Dm644 "${srcdir}/arf-${pkgver}/LICENSE.md" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
 
-sha512sums=('b8c002e01735b7ba74d6125f0b7201811fde9dec0583bb243f1637c93d9b8c976ae98047a7b3129f8dbc19d43d46d4f3ef4eae37efa14ebdc09b33d1e120b8a5')
+sha512sums=('7bd79bd040e242b16c62604978ac84ace6c2cfa7d1183153d78fd3fafddf561199fe30212607aef51f970cf8f0756c8c1f0e713c244a4797e8b5b3ca878fc1e0')
