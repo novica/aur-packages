@@ -1,7 +1,7 @@
 # Maintainer: novica <nnovica@gmail.com>
 
 pkgname=ggsql
-pkgver=0.4.1 # renovate: datasource=github-releases depName=posit-dev/ggsql
+pkgver=0.5.2 # renovate: datasource=github-releases depName=posit-dev/ggsql
 pkgrel=1
 pkgdesc="SQL extension for declarative data visualization"
 url="https://github.com/posit-dev/ggsql"
