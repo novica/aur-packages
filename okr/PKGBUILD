@@ -1,7 +1,7 @@
 # Maintainer: novica <nnovica@gmail.com>
 
 pkgname=okr
-pkgver=0.1.9 # renovate: datasource=github-tags depName=nanxstats/okr
+pkgver=0.1.10 # renovate: datasource=github-tags depName=nanxstats/okr
 pkgrel=1
 pkgdesc="Reproducible R source context for coding agents"
 url="https://github.com/nanxstats/okr"
