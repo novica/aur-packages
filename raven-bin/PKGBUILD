@@ -1,7 +1,7 @@
 # Maintainer: novica <nnovica@gmail.com>
 
 pkgname=raven-bin
-pkgver=0.21.0 # renovate: datasource=github-tags depName=jbearak/raven
+pkgver=0.21.1 # renovate: datasource=github-tags depName=jbearak/raven
 pkgrel=1
 pkgdesc="Static analyzer for R — a language server in your editor, a checker in CI"
 arch=('x86_64' 'aarch64')
