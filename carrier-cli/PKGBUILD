@@ -1,7 +1,7 @@
 # Maintainer: novica <nnovica@gmail.com>
 
 pkgname=carrier-cli
-pkgver=0.2.3 # renovate: datasource=github-tags depName=joshuamarie/carrier
+pkgver=0.2.4 # renovate: datasource=github-tags depName=joshuamarie/carrier
 pkgrel=1
 pkgdesc="A module manager for {box} modules"
 url="https://github.com/joshuamarie/carrier"
