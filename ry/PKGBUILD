@@ -1,7 +1,7 @@
 # Maintainer: novica <nnovica@gmail.com>
 
 pkgname=ry
-pkgver=0.11.0 # renovate: datasource=github-tags depName=sims1253/ry
+pkgver=0.11.0 # renovate: datasource=github-releases depName=sims1253/ry
 pkgrel=1
 pkgdesc="A fast static checker for the R language, written in Rust"
 url="https://github.com/sims1253/ry"

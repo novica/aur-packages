@@ -1,7 +1,7 @@
 # Maintainer: novica <nnovica@gmail.com>
 
 pkgname=tinyetl
-pkgver=0.10.0 # renovate: datasource=github-tags depName=alrpal/TinyETL
+pkgver=0.10.0 # renovate: datasource=github-releases depName=alrpal/TinyETL
 pkgrel=1
 pkgdesc="Fast, zero-config ETL in a single binary"
 url="https://github.com/alrpal/TinyETL"
