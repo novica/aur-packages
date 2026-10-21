@@ -1,7 +1,7 @@
 # Maintainer: novica <nnovica@gmail.com>
 
 pkgname=rv
-pkgver=0.23.2 # renovate: datasource=github-releases depName=a2-ai/rv
+pkgver=0.23.3 # renovate: datasource=github-releases depName=a2-ai/rv
 pkgrel=1
 pkgdesc="A declarative R package manager"
 url="https://github.com/a2-ai/rv"
