@@ -1,7 +1,7 @@
 # Maintainer: novica <nnovica@gmail.com>
 
 pkgname=r-rig-bin
-pkgver=0.11.0 # renovate: datasource=github-releases depName=r-lib/rig
+pkgver=0.11.1 # renovate: datasource=github-releases depName=r-lib/rig
 pkgrel=1
 pkgdesc="The R Installation Manager"
 arch=('x86_64' 'aarch64')
