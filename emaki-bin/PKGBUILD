@@ -1,7 +1,7 @@
 # Maintainer: novica <nnovica@gmail.com>
 
 pkgname=emaki-bin
-pkgver=0.3.2 # renovate: datasource=github-releases depName=alkaline-software/emaki
+pkgver=0.4.0 # renovate: datasource=github-releases depName=alkaline-software/emaki
 pkgrel=1
 pkgdesc="An agentic development environment"
 arch=('x86_64' 'aarch64')
