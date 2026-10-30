@@ -1,7 +1,7 @@
 # Maintainer: novica <nnovica@gmail.com>
 
 pkgname=librepaper
-pkgver=0.0.56 # renovate: datasource=github-releases depName=LibrePaper/librepaper
+pkgver=0.0.57 # renovate: datasource=github-releases depName=LibrePaper/librepaper
 pkgrel=1
 pkgdesc="A free collaborative writing, editing, and commenting platform"
 url="https://github.com/LibrePaper/librepaper"
