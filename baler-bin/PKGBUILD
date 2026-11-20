@@ -1,7 +1,7 @@
 # Maintainer: novica <nnovica@gmail.com>
 
 pkgname=baler-bin
-pkgver=0.1.1 # renovate: datasource=github-releases depName=baler-dev/baler
+pkgver=0.2.0 # renovate: datasource=github-releases depName=baler-dev/baler
 pkgrel=1
 pkgdesc="A Cargo-style package manager for {box} modules"
 arch=('x86_64' 'aarch64')
