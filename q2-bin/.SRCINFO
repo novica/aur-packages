@@ -10,7 +10,7 @@ pkgbase = q2-bin
 	conflicts = q2
 	options = !debug
 	source_x86_64 = q2-bin-0.47.0.tar.gz::https://github.com/quarto-dev/q2/releases/download/v0.47.0/q2-0.47.0-linux_amd64.tar.gz
-	source_x86_64 = https://raw.githubusercontent.com/quarto-dev/q2/refs/tags/v0.47.0/LICENSE
+	source_x86_64 = LICENSE-0.47.0::https://raw.githubusercontent.com/quarto-dev/q2/refs/tags/v0.47.0/LICENSE
 	provides_x86_64 = q2=0.47.0
 	sha256sums_x86_64 = 22877d3a27cf9ff34805bf32419ec605397affc2e935dab3c205c86979a6a527
 	sha256sums_x86_64 = ea2890b709b444613cf7ae578b3ba6d4ca03a31899207ed5936ebbc532e433b9

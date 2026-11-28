@@ -13,14 +13,14 @@ options=('!debug')
 provides_x86_64=("arity=${pkgver}")
 
 source_x86_64=("${pkgname}-${pkgver}.tar.gz::https://github.com/jolars/arity/releases/download/v${pkgver}/arity-x86_64-unknown-linux-gnu.tar.gz"
-                "https://raw.githubusercontent.com/jolars/arity/refs/tags/v${pkgver}/LICENSE")
+                "LICENSE-${pkgver}::https://raw.githubusercontent.com/jolars/arity/refs/tags/v${pkgver}/LICENSE")
 
 package() {
     cd "$srcdir"
 
     # Move the binary from the temporary install directory to the final location
     install -Dm755 "$srcdir/arity" "$pkgdir/usr/bin/arity"
-    install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+    install -Dm644 "LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
 
 sha256sums_x86_64=('c747a35100564f64f94f9cd7eaf60bf08042c87d7498e17c475dabfe7e54eaab'

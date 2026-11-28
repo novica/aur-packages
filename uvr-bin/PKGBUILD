@@ -16,14 +16,14 @@ conflicts=('uvr')
 options=('!debug')
 provides_x86_64=("uvr=${pkgver}")
 source_x86_64=("${pkgname}-${pkgver}.tar.gz::https://github.com/nbafrank/uvr/releases/download/v${pkgver}/uvr-x86_64-unknown-linux-gnu.tar.gz"
-                "https://raw.githubusercontent.com/nbafrank/uvr/refs/tags/v${pkgver}/LICENSE")
+                "LICENSE-${pkgver}::https://raw.githubusercontent.com/nbafrank/uvr/refs/tags/v${pkgver}/LICENSE")
 
 package() {
     cd "$srcdir"
 
     # Move the binary from the temporary install directory to the final location
     install -Dm755 "$srcdir/uvr" "$pkgdir/usr/bin/uvr"
-    install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+    install -Dm644 "LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
 
 sha256sums_x86_64=('626a13ff485e23c447a28f6ff84af0471e9aca18fbcad18002d8cb84fe4ed72a'

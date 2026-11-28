@@ -10,7 +10,7 @@ pkgbase = rd2qmd-bin
 	conflicts = rd2qmd
 	options = !debug
 	source_x86_64 = rd2qmd-bin-0.7.0.tar.gz::https://github.com/eitsupi/rd2qmd/releases/download/v0.7.0/rd2qmd-x86_64-unknown-linux-gnu.tar.xz
-	source_x86_64 = https://raw.githubusercontent.com/eitsupi/rd2qmd/refs/tags/v0.7.0/LICENSE.md
+	source_x86_64 = LICENSE-0.7.0::https://raw.githubusercontent.com/eitsupi/rd2qmd/refs/tags/v0.7.0/LICENSE.md
 	provides_x86_64 = rd2qmd=0.7.0
 	sha256sums_x86_64 = 61a1f66559689752d376dc5d853f75fecfbdbd1a9745fd63ae117abaea6c34ee
 	sha256sums_x86_64 = 1638fb54637ac20a35be392deaae32f54cf234a9c9b9ffc3177a2ba10750ea33

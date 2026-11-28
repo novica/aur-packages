@@ -10,7 +10,7 @@ pkgbase = r-air-bin
 	conflicts = r-air
 	options = !debug
 	source_x86_64 = r-air-bin-0.13.0.tar.gz::https://github.com/posit-dev/air/releases/download/0.13.0/air-x86_64-unknown-linux-gnu.tar.gz
-	source_x86_64 = https://raw.githubusercontent.com/posit-dev/air/refs/tags/0.13.0/LICENSE
+	source_x86_64 = LICENSE-0.13.0::https://raw.githubusercontent.com/posit-dev/air/refs/tags/0.13.0/LICENSE
 	provides_x86_64 = r-air=0.13.0
 	sha256sums_x86_64 = 3909b12870df0b6a44e3f40376cd59aca373791c0abedd02dcbda7b136e4573c
 	sha256sums_x86_64 = 19713ea69a4231105033c381dc2145148d26eab51e0b7e458ef4e775db531863
