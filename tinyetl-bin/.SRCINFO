@@ -12,7 +12,7 @@ pkgbase = tinyetl-bin
 	conflicts = tinyetl
 	options = !debug
 	source_x86_64 = tinyetl-bin-0.12.1.tar.gz::https://github.com/alrpal/TinyETL/releases/download/v0.12.1/tinyetl-linux-x86_64.tar.gz
-	source_x86_64 = https://raw.githubusercontent.com/alrpal/TinyETL/refs/tags/v0.12.1/LICENSE
+	source_x86_64 = LICENSE-0.12.1::https://raw.githubusercontent.com/alrpal/TinyETL/refs/tags/v0.12.1/LICENSE
 	provides_x86_64 = tinyetl=0.12.1
 	sha256sums_x86_64 = 3ac5702ad0aaa3319987594cfa15f2fe8e7b6956d3fbe1dc9ca3fcb463693cb5
 	sha256sums_x86_64 = 3c14c6403d4565757f7ee93cec91d8895d82cac5a9bf1cb44abd343e4c639886

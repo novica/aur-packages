@@ -14,11 +14,11 @@ pkgbase = ggsql-bin
 	conflicts = ggsql
 	options = !debug
 	source_x86_64 = ggsql-bin-0.5.2_amd64.deb::https://github.com/posit-dev/ggsql/releases/download/v0.5.2/ggsql_0.5.2_amd64.deb
-	source_x86_64 = LICENSE::https://raw.githubusercontent.com/posit-dev/ggsql/refs/tags/v0.5.2/LICENSE.md
+	source_x86_64 = LICENSE-0.5.2::https://raw.githubusercontent.com/posit-dev/ggsql/refs/tags/v0.5.2/LICENSE.md
 	sha256sums_x86_64 = 04a6d6b709be00a93c2810062d95d7526da1cd1d9f2c9180107d6d8dba743e21
 	sha256sums_x86_64 = c4faf3235a2b77ac03e7c050c640b36a1873b7889d96cbe2951bf75fa4f8bd9d
 	source_aarch64 = ggsql-bin-0.5.2_arm64.deb::https://github.com/posit-dev/ggsql/releases/download/v0.5.2/ggsql_0.5.2_arm64.deb
-	source_aarch64 = LICENSE::https://raw.githubusercontent.com/posit-dev/ggsql/refs/tags/v0.5.2/LICENSE.md
+	source_aarch64 = LICENSE-0.5.2::https://raw.githubusercontent.com/posit-dev/ggsql/refs/tags/v0.5.2/LICENSE.md
 	sha256sums_aarch64 = 58b4922b6a29439d044f761bed981f40b94fde0289396dc5e7711abdeaa571ec
 	sha256sums_aarch64 = c4faf3235a2b77ac03e7c050c640b36a1873b7889d96cbe2951bf75fa4f8bd9d
 

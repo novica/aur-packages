@@ -13,14 +13,14 @@ options=('!debug')
 provides_x86_64=("q2=${pkgver}")
 
 source_x86_64=("${pkgname}-${pkgver}.tar.gz::https://github.com/quarto-dev/q2/releases/download/v${pkgver}/q2-${pkgver}-linux_amd64.tar.gz"
-                "https://raw.githubusercontent.com/quarto-dev/q2/refs/tags/v${pkgver}/LICENSE")
+                "LICENSE-${pkgver}::https://raw.githubusercontent.com/quarto-dev/q2/refs/tags/v${pkgver}/LICENSE")
 
 package() {
     cd "$srcdir"
 
     # Move the binary from the temporary install directory to the final location
     install -Dm755 "$srcdir/q2" "$pkgdir/usr/bin/q2"
-    install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+    install -Dm644 "LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
 
 sha256sums_x86_64=('22877d3a27cf9ff34805bf32419ec605397affc2e935dab3c205c86979a6a527'

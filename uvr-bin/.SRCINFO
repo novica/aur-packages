@@ -11,7 +11,7 @@ pkgbase = uvr-bin
 	conflicts = uvr
 	options = !debug
 	source_x86_64 = uvr-bin-0.4.8.tar.gz::https://github.com/nbafrank/uvr/releases/download/v0.4.8/uvr-x86_64-unknown-linux-gnu.tar.gz
-	source_x86_64 = https://raw.githubusercontent.com/nbafrank/uvr/refs/tags/v0.4.8/LICENSE
+	source_x86_64 = LICENSE-0.4.8::https://raw.githubusercontent.com/nbafrank/uvr/refs/tags/v0.4.8/LICENSE
 	provides_x86_64 = uvr=0.4.8
 	sha256sums_x86_64 = 626a13ff485e23c447a28f6ff84af0471e9aca18fbcad18002d8cb84fe4ed72a
 	sha256sums_x86_64 = 77b70ed5d9b61311ad9b3be2940e7bc5491600d0a28a641eb801991690d4debc

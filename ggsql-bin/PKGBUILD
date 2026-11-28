@@ -13,9 +13,9 @@ options=('!debug')
 provides=("ggsql=${pkgver}")
 
 source_x86_64=("${pkgname}-${pkgver}_amd64.deb::https://github.com/posit-dev/ggsql/releases/download/v${pkgver}/ggsql_${pkgver}_amd64.deb"
-               "LICENSE::https://raw.githubusercontent.com/posit-dev/ggsql/refs/tags/v${pkgver}/LICENSE.md")
+               "LICENSE-${pkgver}::https://raw.githubusercontent.com/posit-dev/ggsql/refs/tags/v${pkgver}/LICENSE.md")
 source_aarch64=("${pkgname}-${pkgver}_arm64.deb::https://github.com/posit-dev/ggsql/releases/download/v${pkgver}/ggsql_${pkgver}_arm64.deb"
-                "LICENSE::https://raw.githubusercontent.com/posit-dev/ggsql/refs/tags/v${pkgver}/LICENSE.md")
+                "LICENSE-${pkgver}::https://raw.githubusercontent.com/posit-dev/ggsql/refs/tags/v${pkgver}/LICENSE.md")
 
 sha256sums_x86_64=('04a6d6b709be00a93c2810062d95d7526da1cd1d9f2c9180107d6d8dba743e21'
                    'c4faf3235a2b77ac03e7c050c640b36a1873b7889d96cbe2951bf75fa4f8bd9d')
@@ -26,5 +26,5 @@ package() {
     cd "${srcdir}"
     bsdtar -xf ./*.deb
     bsdtar -xf data.tar.gz -C "${pkgdir}"
-    install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+    install -Dm644 "LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
