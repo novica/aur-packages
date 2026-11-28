@@ -1,6 +1,6 @@
 pkgbase = tinyetl
 	pkgdesc = Fast, zero-config ETL in a single binary
-	pkgver = 0.12.0
+	pkgver = 0.12.1
 	pkgrel = 1
 	url = https://github.com/alrpal/TinyETL
 	arch = x86_64
@@ -14,7 +14,7 @@ pkgbase = tinyetl
 	conflicts = tinyetl-bin
 	options = !lto
 	options = !debug
-	source = tinyetl-0.12.0.tar.gz::https://github.com/alrpal/TinyETL/archive/v0.12.0.tar.gz
-	sha512sums = c3fcb9b29c56b6eb9cfb4613360d06f46aee29c69f14cbeae89f6ba429591222ff19fcda1edf883d886b56993891f1a062508f33ec0c4abc78f702e0094d924b
+	source = tinyetl-0.12.1.tar.gz::https://github.com/alrpal/TinyETL/archive/v0.12.1.tar.gz
+	sha512sums = c2cd47f1a3aa400d42cb269e851144e2df6c39d61577cdaab88d7727fc351036e1843d04f07e6452d260fb0063fc3f7ccfd34e23c0a912205923621c13b5bfb5
 
 pkgname = tinyetl
